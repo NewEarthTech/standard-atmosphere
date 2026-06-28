@@ -3,9 +3,7 @@ name = "standard-atmosphere"
 version = "0.1.0"
 edition.workspace = true
 rust-version.workspace = true
-# Apache-2.0 here matches the workspace. For an independently published crate the
-# Rust convention is dual "MIT OR Apache-2.0"; that is a one-line change when we split.
-license.workspace = true
+license = "MIT OR Apache-2.0"
 description = "International Standard Atmosphere (ISA / U.S. Standard Atmosphere 1976) with flight-level, pressure-altitude, and geopotential-height conversions."
 repository = "https://github.com/NewEarthTech/standard-atmosphere"
 documentation = "https://docs.rs/standard-atmosphere"
