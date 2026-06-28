@@ -1,5 +1,10 @@
 # standard-atmosphere
 
+[![crates.io](https://img.shields.io/crates/v/standard-atmosphere.svg)](https://crates.io/crates/standard-atmosphere)
+[![docs.rs](https://docs.rs/standard-atmosphere/badge.svg)](https://docs.rs/standard-atmosphere)
+[![license](https://img.shields.io/crates/l/standard-atmosphere.svg)](#license)
+[![MSRV](https://img.shields.io/badge/MSRV-1.83-blue.svg)](https://www.rust-lang.org)
+
 The International Standard Atmosphere (ISA / U.S. Standard Atmosphere 1976) in Rust, with the vertical-coordinate conversions weather and aviation tooling actually needs: pressure to altitude, and flight level to pressure.
 
 ## Why this exists
