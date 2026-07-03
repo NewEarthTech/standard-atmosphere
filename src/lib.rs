@@ -76,6 +76,7 @@ struct Layer {
 }
 
 /// ISA / U.S. Standard Atmosphere 1976 layers, sea level to 71 km geopotential.
+#[rustfmt::skip]
 static LAYERS: [Layer; 7] = [
     Layer { base_geopotential_m:      0.0, base_temp_k: 288.15, lapse_k_per_m: -0.006_5, base_pressure_pa: 101_325.0 },
     Layer { base_geopotential_m: 11_000.0, base_temp_k: 216.65, lapse_k_per_m:  0.0,     base_pressure_pa:  22_632.06 },

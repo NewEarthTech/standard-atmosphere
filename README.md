@@ -1,5 +1,6 @@
 # standard-atmosphere
 
+[![CI](https://github.com/NewEarthTech/standard-atmosphere/actions/workflows/ci.yml/badge.svg)](https://github.com/NewEarthTech/standard-atmosphere/actions/workflows/ci.yml)
 [![crates.io](https://img.shields.io/crates/v/standard-atmosphere.svg)](https://crates.io/crates/standard-atmosphere)
 [![docs.rs](https://docs.rs/standard-atmosphere/badge.svg)](https://docs.rs/standard-atmosphere)
 [![license](https://img.shields.io/crates/l/standard-atmosphere.svg)](#license)
